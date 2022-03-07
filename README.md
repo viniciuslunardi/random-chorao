@@ -10,6 +10,7 @@ Server
 $ curl https://choris.herokuapp.com/api/quote
 ```
 
+Exemplo
 ```json
 {
     "choris": "Não tão complicada demais, mas nem tão simples assim..."
