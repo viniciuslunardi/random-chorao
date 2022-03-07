@@ -1,0 +1,29 @@
+{
+  "name": "random-chorao",
+  "version": "0.0.1",
+  "description": "api para entregar frases aleatórias do chorão",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciuslunardi/random-chorao.git"
+  },
+  "keywords": [
+    "chorao",
+    "random",
+    "frases",
+    "chorao"
+  ],
+  "author": "Vinicius Lunardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciuslunardi/random-chorao/issues"
+  },
+  "homepage": "https://github.com/viniciuslunardi/random-chorao#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
