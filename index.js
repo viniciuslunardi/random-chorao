@@ -21,9 +21,9 @@ const corsMiddeware = (req, res, next) => {
 };
 
 router.get("/api/quote", (req, res) => {
-  const quote = quotes[Math.floor(Math.random() * quotes.length)];
+  const choris = quotes[Math.floor(Math.random() * quotes.length)];
 
-  const json = JSON.stringify({ quote: quote });
+  const json = JSON.stringify({ choris });
 
   return res.status(200).send(json);
 });
